@@ -109,6 +109,65 @@ object. In Java, abstraction can be achieved using abstract classes and interfac
 
 Example:-
 
+*/
+
+
+
+
+//==========================Important Points=======================
+
+/*
+java mein OOPs concepts ke alawa bhi kuch important points hote hain jo aapko dhyan mein rakhne chahiye:
+
+java me pass by value hota hai, iska matlab hai ki jab aap kisi variable ko method ke andar pass karte hain, to uska ek copy ban jata hai. Isliye, agar aap method ke andar variable ki value change karte hain, to original variable ki value change nahi hoti.
+
+EXAMPLE:-
+public class PassByValueExample {
+    public static void main(String[] args) {
+        int originalValue = 10;
+        modifyValue(originalValue);
+        System.out.println("Original Value: " + originalValue); // Output: Original Value: 10
+    }
+
+    public static void modifyValue(int value) {         // yahan originalValue ka sirf value pass ho raha hai value ko, reference nahi . Yahan pr value ki jagah hum kuchh bhi likhe jese x then fir bhi originalValue ka value 10 pass hokar x ko milega
+        value = 20; // This change will not affect the original variable
+    }
+}
+
+
+
+
+//Note:-
+
+Java me memory management automatic hota hai, iska matlab hai ki aapko manually memory allocate ya deallocate karne ki zarurat nahi hoti. Java ka garbage collector automatically unused objects ko remove kar deta hai, jisse memory efficient hoti hai.
+Java me multithreading support hota hai, jiska matlab hai ki aap ek program ke andar multiple threads create kar sakte hain jo simultaneously execute hote hain. Isse aap apne program ko faster aur responsive bana sakte hain.
+Java me exception handling mechanism hota hai, jiska matlab hai ki aap apne program me errors ko handle kar sakte hain using try-catch blocks. Isse aap apne program ko crash hone se bachate hain aur user-friendly error messages provide kar sakte hain.
+Java me platform independence hota hai, iska matlab hai ki aap ek baar Java code likh kar usse kisi bhi platform par run kar sakte hain without any modifications. Java Virtual Machine (JVM) ke through, Java code ko bytecode me convert kiya jata hai, jo kisi bhi platform par execute ho sakta hai.
+Java me strong type checking hota hai, iska matlab hai ki aapko variables ko declare karte waqt unka data type specify karna hota hai. Isse aapko compile-time errors milte hain agar aap galat data type ka use karte hain, jisse aapke program ki reliability badh jati hai.
+Java me standard libraries ka support hota hai, jisme aapko bahut saare pre-built classes aur methods milte hain jo aapke programming tasks ko asaan banate hain. Jaise ki java.util package me collections framework, java.io package me file handling classes, java.net package me networking classes, etc.
+Java me object-oriented programming (OOP) concepts ka support hota hai, jisme aap classes aur objects ka use karke apne program ko modular aur reusable bana sakte hain. OOP ke main pillars hain encapsulation, inheritance, polymorphism, aur abstraction.
+
+//==========================Important Points=======================
+Notes:==
+
+int a = 10;
+int x = 15;   --->Helping variable
+Dynamic allocation(queue) --> PQ
+Pointer( Java not available) --> Reference variable
+List ---> Dynamic L.DS
+1-->2-->3-->4-->5(X bytes ) hexa code
+print(x);
+f1();
+
+
+
+
+
+
+
+
+
+
 
 
 
