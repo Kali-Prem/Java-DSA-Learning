@@ -159,6 +159,8 @@ List ---> Dynamic L.DS
 print(x);
 f1();
 
+//KAli new Notes
+
 
 
 
