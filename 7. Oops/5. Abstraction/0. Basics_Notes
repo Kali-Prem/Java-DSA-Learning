@@ -1,0 +1,14 @@
+/* 
+abstract calss Student {   //private
+    String name;
+    int  age;
+    String gender;
+}
+class Teacher extends Student { // default class
+
+}
+
+Note:- abstract class --> no direct object can be created --> create a extends of abstract class.
+Student(abstract) --> extends class Teacher --> object of teacher will be created in main fnc.
+*/
+
